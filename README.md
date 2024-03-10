@@ -1,5 +1,7 @@
 # Express-Mongoose Auth app
-This project is a simple authentication application build using Express.js and Mongoose for the Database
+This project is a simple authentication application build using Express.js and Mongoose for the Database.\
+Here is the list of al the package used in this project:<br> 
+`express`, `dotenv`, `jsonwebtoken`, `mongoose`, `validator`, `bcrypt`, `helmet`
 
 ## Features
 - Routes
@@ -26,7 +28,7 @@ This project is a simple authentication application build using Express.js and M
     | **Install** | `npm install` |
     | **Start**   | `npm start`   |
     | **Dev**     | `npm dev`     |
-2. The server will run on port 8080 if not changed in the `.env`.\
+2. The server will run on port `8080` if not changed in the `.env`.\
    You can access it in your browser at `http://localhost:8080`
 
 ## 🔧 Configuration
