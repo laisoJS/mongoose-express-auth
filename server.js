@@ -11,6 +11,7 @@ const express = require('express'),
       port = process.env.PORT || 8080,
       domain = process.env.DOMAIN || 'localhost';
 
+app.use(helmet());
 app.use(express.json());
 
 app.get('/', (req, res) => {
